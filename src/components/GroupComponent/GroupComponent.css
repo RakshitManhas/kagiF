@@ -1,9 +1,9 @@
   .group-icon {
     width: 82px;
-    height: auto;
+    height: 82px;
     position: relative;
     z-index: 3;
-    fill: red;
+    transition: all 0.3s ease;
   }
 
   .liquidity-locks {
@@ -36,6 +36,12 @@
   background-color: var(--kagi-orange); 
   border-color: var(--kagi-orange); 
   color: var(--kagi-white); 
-  cursor: pointer; 
+  cursor: pointer;
+  filter: brightness(100%) contrast(100%); 
+}
+
+.rectangle-container:hover .group-icon {
+  content: attr(data-hover-image); 
+  transform: scale(1.05); 
 }
 

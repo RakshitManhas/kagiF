@@ -26,31 +26,40 @@ const Services: FunctionComponent<ServicesType> = ({ className = "" }) => {
         </div>
       </div>
       <div className="frame-group">
-        <GroupComponent group="../../src/assets/icons/noun-blockchain-6890992 1.svg" liquidityLocks="Liquidity Locks" />
+        <GroupComponent
+          group="../../src/assets/icons/noun-blockchain-6890992 1.svg"
+          liquidityLocks="Liquidity Locks"
+          hoverImage="../../src/assets/icons/onhover/noun-blockchain-6890992 2.svg"
+        />
         <GroupComponent
           group="../../src/assets/icons/noun-digital-token-6391218 1.svg"
           propWidth="82px"
           liquidityLocks="Team Token Locks"
+          hoverImage="../../src/assets/icons/onhover/noun-blockchain-6890992 2.svg"
         />
         <GroupComponent
           group="../../src/assets/icons/noun-token-4814702 1.svg"
           propWidth="82px"
           liquidityLocks="Token Creation"
-        />
-        <GroupComponent 
-        group="../../src/assets/icons/noun-marketplace-6880611 1.svg"
-        propWidth="82px"
-        liquidityLocks="Marketplace"
+          hoverImage="../../src/assets/icons/onhover/noun-token-4814702 2.svg"
         />
         <GroupComponent
-          group="../../src/assets/icons/noun-blockchain-6890992 1.svg"
+          group="../../src/assets/icons/noun-marketplace-6880611 1.svg"
+          propWidth="82px"
+          liquidityLocks="Marketplace"
+          hoverImage="../../src/assets/icons/onhover/noun-token-4814702 2.svg"
+        />
+        <GroupComponent
+          group="../../src/assets/icons/noun-staking-5677836 1.svg"
           propWidth="82px"
           liquidityLocks="Staking Platform"
+          hoverImage="../../src/assets/icons/onhover/noun-staking-5677836 2.svg"
         />
         <GroupComponent
-          group="../../src/assets/icons/noun-blockchain-6890992 1.svg"
+          group="../../src/assets/icons/noun-token-2241985 1.svg"
           propWidth="82px"
           liquidityLocks="Token Vesting"
+          hoverImage="../../src/assets/icons/onhover/noun-token-2241985 2.svg"
         />
       </div>
     </section>

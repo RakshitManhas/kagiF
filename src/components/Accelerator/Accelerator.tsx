@@ -18,14 +18,14 @@ const Accelerator: React.FC<AcceleratorProps> = ({ className = "" }) => {
       </h1>
       <div className="service-image-container">
         <img
-          src="../src/assets/Ecosystem Growth vector.png" 
+          src="Ecosystem Growth vector.png" 
           alt="Service"
           className="service-image"
         />
       </div>
       <div className="service-content">
         <div className="dotted-line">
-          <img src="../src/assets/dotline.png" className="icon" alt="Dotted Line" />
+          <img src="/dotline.png" className="icon" alt="Dotted Line" />
         </div>
         <div className="rectangle">
           <div className="rectangle-parent1">

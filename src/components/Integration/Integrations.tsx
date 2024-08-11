@@ -23,16 +23,16 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
           </h1>
         </div>
         <div className="frame-div">
-          <img className="frame-child7" alt="" src="/../../src/assets/icons/group-35266.svg" />
-          <img className="frame-child11" alt="" src="../../src/assets/icons/group-35244-1.svg" />   
-          <img className="image-17-icon1" alt="" src="../../src/assets/icons/image-17-1@2x.png" />
+          <img className="frame-child7" alt="" src="/icons/group-35266.svg" />
+          <img className="frame-child11" alt="" src="/icons/group-35244-1.svg" />   
+          <img className="image-17-icon1" alt="" src="/icons/image-17-1@2x.png" />
           <div className="ellipse-parent">
             <div className="ellipse-div" />
             <img
               className="image-17-icon"
               loading="lazy"
               alt=""
-              src="../../src/assets/icons/image-17@2x.png"
+              src="/icons/image-17@2x.png"
             />
           </div>
           <div className="ellipse-group">
@@ -41,7 +41,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
               className="image-17-icon"
               loading="lazy"
               alt=""
-              src="../../src/assets/icons/image-19@2x.png"
+              src="/icons/image-19@2x.png"
             />
           </div>
           <div className="ellipse-container">
@@ -50,7 +50,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
               className="image-17-icon"
               loading="lazy"
               alt=""
-              src="../../src/assets/icons/image-16@2x.png"
+              src="/icons/image-16@2x.png"
             />
           </div>
           <div className="ellipse-parent1">
@@ -59,19 +59,19 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
               className="image-17-icon"
               loading="lazy"
               alt=""
-              src="../../src/assets/icons/image-20@2x.png"
+              src="/icons/image-20@2x.png"
             />
           </div>
           <img
             className="kagi-finance-icon"
             loading="lazy"
             alt=""
-            src="../../src/assets/kagi-finance.svg"
+            src="/kagi-finance.svg"
           />
-          <img className="vector-icon" alt="" src="../../src/assets/vector-123.svg" />
+          <img className="vector-icon" alt="" src="/vector-123.svg" />
           <div className="frame-parent1">
-            <img className="frame-child12" alt="" src="/../../src/assets/icons/group-35266.svg" />
-            <img className="image-20-icon1" alt="" src="../../src/assets/icons/image-20-1@2x.png" />
+            <img className="frame-child12" alt="" src="/icons/group-35266.svg" />
+            <img className="image-20-icon1" alt="" src="/icons/image-20-1@2x.png" />
           </div>
         </div>
       </div>

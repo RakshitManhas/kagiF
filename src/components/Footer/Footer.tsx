@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
 import "./Footer.css";
 
-export type FrameComponent2Type = {
+export type FooterProps = {
   className?: string;
 };
 
-const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
+const Footer: FunctionComponent<FooterProps> = ({
   className = "",
 }) => {
   return (
@@ -13,13 +13,13 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
       <div className="frame-parent2">
         <div className="rectangle-parent3">
           <div className="lock-call-to-action">
-            <h1 className="want-to-lock">Want to Lock your tokens ?</h1>
+            <h1 className="want-to-lock">Want to Lock your tokens?</h1>
             <div className="kagi-allows-companies">
               Kagi allows companies to create, vest, lock, track, and spin up
               staking pools for their tokens.
             </div>
           </div>
-          <img className="group-icon1" alt="" src="../../src/assets/icons/group-2.svg" />
+          <img className="group-icon1" alt="" src="/icons/group-2.svg" />
         </div>
         <div className="logo-content-wrapper">
           <div className="logo-content">
@@ -27,14 +27,14 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
               className="kagi-logo-icon"
               loading="lazy"
               alt=""
-              src="../../src/assets/Logo Kagi.png"
+              src="/Logo Kagi.png"
             />
             <div className="logo-content-inner">
-            <img
+              <img
                 className="frame-child14"
                 loading="lazy"
                 alt=""
-                src="../../src/assets/icons/group-35275.svg"
+                src="/icons/group-35275.svg"
               />
             </div>
           </div>
@@ -44,4 +44,4 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
   );
 };
 
-export default FrameComponent2;
+export default Footer;

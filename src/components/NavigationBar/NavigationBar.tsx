@@ -13,7 +13,7 @@ const NavigationBar: FunctionComponent<NavigationBarType> = ({ className = "" })
           className="logo-kagi-icon"
           loading="lazy"
           alt="Kagi Logo"
-          src="/../../src/assets/Logo Kagi.png"
+          src="/Logo Kagi.png"
         />
       </div>
       <div className="navigation-bar">

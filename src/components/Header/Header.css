@@ -8,7 +8,7 @@
   box-sizing: border-box; 
   overflow: hidden;
 
-  background-image: url('../../assets/background.png'); /* Replace with your image URL */
+  background-image: url('/background.png');
   background-size: auto 120%; 
   background-position: center;
   background-repeat: no-repeat;
